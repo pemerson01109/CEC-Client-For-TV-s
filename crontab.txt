@@ -1,0 +1,16 @@
+# m h  dom mon dow   command
+00 7 * * 1-5 /home/pi/cec/start.sh
+# turn tv on
+15 15 * * 1-5 /home/pi/cec/stop.sh
+# turn tv off
+50 6 * * 1-5 /home/pi/programs/sign.sh
+# opens chrome to sign feed
+55 6 * * 1-5 /home/pi/programs/fullscreen.sh
+# puts chrome in fullscreen
+25 14 * * 1-5 /home/pi/programs/vlc.sh
+# opens vlc to numbers feed
+00 15 * * 1-5 /home/pi/programs/killvlc.sh
+# close vlc
+16 15 * * 1-5 /home/pi/programs/killchromium.sh
+# close chrome
+#
