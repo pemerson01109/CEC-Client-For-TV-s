@@ -1,7 +1,7 @@
 # m h  dom mon dow   command
-00 7 * * 1-5 /home/pi/cec/start.sh
+00 7 * * 1-5 /home/pi/Digital-Signage-Programs/start.sh
 # turn tv on
-30 15 * * 1-5 /home/pi/cec/stop.sh
+30 15 * * 1-5 /home/pi/Digital-Signage-Programs/stop.sh
 # turn tv off
 50 6 * * 1-5 /home/pi/programs/sign.sh
 # opens chrome to sign feed
