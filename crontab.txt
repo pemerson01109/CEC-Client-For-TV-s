@@ -1,12 +1,12 @@
 # m h  dom mon dow   command
-00 7 * * 1-5 /home/pi/Digital-Signage-Programs/start.sh
+00 7 * * 1-5 /home/pi/CEC-Client-For-TV-s/start.sh
 # turn tv on
-30 15 * * 1-5 /home/pi/Digital-Signage-Programs/stop.sh
+30 15 * * 1-5 /home/pi/CEC-Client-For-TV-s/stop.sh
 # turn tv off
-50 6 * * 1-5 /home/pi/CEC-Client-For-TV-s/sign.sh
+50 6 * * 1-5 /home/pi/Digital-Signage-Programs/sign.sh
 # opens chrome to sign feed
-55 6 * * 1-5 /home/pi/CEC-Client-For-TV-s/fullscreen.sh
+55 6 * * 1-5 /home/pi/Digital-Signage-Programs/fullscreen.sh
 # puts chrome in fullscreen
-31 15 * * 1-5 /home/pi/CEC-Client-For-TV-s/killchromium.sh
+31 15 * * 1-5 /home/pi/Digital-Signage-Programs/killchromium.sh
 # close chrome
 #
